@@ -404,3 +404,9 @@ footer {
 .animate-fadeInUp {
     animation: fadeInUp 0.6s ease-out;
 }
+.nav-logo {
+    height: 64px;        /* BESARIN di sini (misal 56–72px) */
+    width: auto;
+    object-fit: contain;
+    transform: scale(1.2); /* opsional: bikin tampak lebih besar */
+}

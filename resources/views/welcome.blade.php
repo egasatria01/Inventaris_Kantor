@@ -10,7 +10,11 @@
     <div class="bg-animation"></div>
 
     <nav>
-        <div class="logo">InvenTrack</div>
+          <img 
+        src="{{ asset('assets/img/logo/logo.png') }}" 
+        alt="Logo Inventaris Kantor"
+        class="nav-logo"
+    >
         <ul class="nav-links">
             <li><a href="#features">Fitur</a></li>
             <li><a href="#about">Tentang</a></li>
@@ -97,12 +101,12 @@
         </div>
     </section>
 
-    <section class="cta-section" id="about">
+    <!-- <section class="cta-section" id="about">
         <div class="cta-container">
             <h2>Mulai Kelola Inventaris Anda</h2>
             <p>Bergabunglah dengan ratusan perusahaan yang sudah mengoptimalkan pengelolaan aset mereka dengan InvenTrack</p>
             <a href="/login" class="btn-primary" style="padding: 1.2rem 3rem; font-size: 1.1rem; text-decoration: none; display: inline-block;">Coba Gratis 14 Hari</a>
-        </div>
+        </div> -->
     </section>
 
     <footer>
